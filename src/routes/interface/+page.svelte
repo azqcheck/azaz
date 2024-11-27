@@ -88,7 +88,8 @@
 									<span class="text-blue-400">{driver.date_of_issue}</span>
 								</p>
 								<p>
-									Срок действия: <span class="text-blue-400">909923123</span> Категория
+									Срок действия: <span class="text-blue-400">{driver.validity_period}</span>
+									Категория
 									<span class="text-blue-400">{driver.categoryes}</span>
 								</p>
 							</div>
