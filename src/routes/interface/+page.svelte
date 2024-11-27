@@ -67,7 +67,7 @@
 				</div>
 				{#if driver !== null}
 					<div class="mt-4 flex w-full gap-2 bg-white p-3 shadow-lg">
-						<img class="max-w-[120px] object-cover" src={driver.picture} alt="" />
+						<img class="max-h-[180px] max-w-[120px] object-cover" src={driver.picture} alt="" />
 						<div class="w-[400px]">
 							<div class="w-full bg-green-600 px-1">
 								<h1 class="uppercase text-white">Действует</h1>
